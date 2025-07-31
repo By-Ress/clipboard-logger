@@ -16,7 +16,7 @@ changes to a text file. The implementation is in C with platform-specific module
 ├── clipboard_mac.c # macOS implementation (pbpaste)\
 ├── clipboard_windows.c # Windows implementation (Win32 API)\
 └── main.c # OS-agnostic main program\
-## Build script with OS selection
+# Build script with OS selection
 
 
 ---
