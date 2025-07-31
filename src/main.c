@@ -31,7 +31,7 @@ int main() {
     }
 
     while (1) {
-        sleep(5);
+        sleep(1);
 
         char* new_data = get_clipboard_text();
         if (new_data && strcmp(new_data, data) != 0) {
